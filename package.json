@@ -1,0 +1,26 @@
+{
+  "name": "reprograma-vidaequilibrada",
+  "version": "1.0.0",
+  "description": "{Reprograma_On12}",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anacsz/ProjetoFinal_Reprograma_VidaEquilibrada.git"
+  },
+  "author": "Ana Cláudia Almeida de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anacsz/ProjetoFinal_Reprograma_VidaEquilibrada/issues"
+  },
+  "homepage": "https://github.com/anacsz/ProjetoFinal_Reprograma_VidaEquilibrada#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12"
+  }
+}
