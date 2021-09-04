@@ -1,3 +1,7 @@
+<p  align = "center">
+<img src = "vidaequilibrada.JPG" width="350">
+</p>
+
 {Reprograma_On12}
 
 Aluna:  Ana Cláudia Almeida de Souza
