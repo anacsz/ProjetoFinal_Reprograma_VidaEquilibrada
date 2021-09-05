@@ -1,13 +1,23 @@
 const express = require('express')
 const cors = require('cors')
-const app = express()
-const PORT = process.env.PORT || 3333
-
-
 const database = require('../src/data/database')
+
+const index = require('./routes/index')
+const foods = require('./routes/alimentoRoutes')
+
+
+//const PORT = process.env.PORT || 3333
+
 database.connect()
 
-app.use(express.json())
+const app = express()
+
 app.use(cors())
+app.use(express.json())
+
+
+app.use('/', index)
+app.use('/foods', foods)
+
 
 module.exports = app
