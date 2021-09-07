@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const database = require('../src/data/database')
 
-const index = require('./routes/index')
+//const index = require('./routes/index')
 const foods = require('./routes/alimentoRoutes')
 
 //const PORT = process.env.PORT || 3333
