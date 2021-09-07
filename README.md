@@ -1,14 +1,16 @@
-<p  align = "center">
-<img src = "vidaequilibrada.JPG" width="350">
-</p>
-
 {Reprograma} - Turma Online 12 - Back-end | 2021 |  🚀
 
 Aluna:  Ana Cláudia Almeida de Souza
 
-Projeto Livre - Vida Equilibrada
 
-Introdução
+<p  align = "center">
+<img src = "vidaequilibrada.JPG" width="350">
+</p>
+
+
+
+<h3 align = "center">Projeto Livre - Vida Equilibrada</h3>
+
 Esta aplicação é uma API com o intuito de ajudar as pessoas que possuem Diabetes mellitus Tipo 1 e se faz necesário o controle da alimentação, para controle e uso correto de insulina, assim como aqueles que desejam ter uma vida saudável. 
 O Alimento listado apresentará quantas gramas de carboídrato possuir por unidade.
 
