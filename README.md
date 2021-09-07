@@ -24,7 +24,7 @@ Hoje diversos fatores contribuem para o surgimento da doença, como má alimenta
 
  <li> Pré-diabtes: acontece quando o nível de açúcar no sangue está aumentado mas ainda não é o suficiente para fazer o diagnóstico de diabetes.
 </ul>
-Fonte:https://www.tuasaude.com/diabetes/
+Fonte: https://www.tuasaude.com/diabetes/
 
 
 
