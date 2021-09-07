@@ -3,7 +3,7 @@ const foodSchema = require("../models/foodSchema")
 
 const getAll = async (req, res) => {
   const alimentos = await foodSchema.find()
-  res.status(200).json(alimentos)
+  res.json(alimentos)
 }
 
 const create =  async (req,res) => {
