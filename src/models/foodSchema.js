@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const foodSchema = new mongoose.Schema({
-    //_id: mongoose.Schema.Types.ObejectId,
+    _id: mongoose.Schema.Types.ObjectId,
     alimento:{type: String, required: true,},
     tipo:{type: String,required: true,},
     carboidrato:{type: Number,required: true,},

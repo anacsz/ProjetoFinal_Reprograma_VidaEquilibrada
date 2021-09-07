@@ -2,14 +2,21 @@ require('dotenv').config()
 const mongoose = require('mongoose')
 
 
-const MONGODB = process.env.MONGODB_URI || process.env.MONGODB_URL
+const MONGO_URL = process.env.MONGODB_URI || 'mongodb://localhost:27017/conexao-Reprograma'
 
-const connect = () => {mongoose.connect(MONGODB,{
-    useNewUrlParse: true,
-    useUnifiedTopology: true
-})
-    .then(console.log('Database conectada com sucesso'))
-    .catch(err => console.err)
+
+const connect = () => {
+    mongoose.connect(MONGO_URL, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    })
+    .then(()=>{
+        console.log('Conectades ao MongoDb Atlas!')
+    })
+    .catch((err)=>{
+        console.log('Perdão, algo deu errado.')
+        console.err(err)
+    })
 }
 
-module.exports = {connect}
+module.exports = { connect }

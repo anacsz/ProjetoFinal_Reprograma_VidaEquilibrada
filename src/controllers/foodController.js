@@ -2,13 +2,13 @@ const mongoose = require("mongoose");
 const foodSchema = require("../models/foodSchema")
 
 const getAll = async (req, res) => {
-  const alimentos = await foodSchema.find().populate('food')
+  const alimentos = await foodSchema.find()
   res.json(alimentos)
 }
 
 const create =  async (req,res) => {
   const food = new foodSchema({
-      //_id: new mongoose.Types.ObjectId(),
+      _id: new mongoose.Types.ObjectId(),
       alimento: req.body.alimento,
       tipo: req.body.tipo,
       carboidrato: req.body.carboidrato,
