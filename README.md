@@ -2,14 +2,15 @@
 <img src = "vidaequilibrada.JPG" width="350">
 </p>
 
-{Reprograma_On12}
+{Reprograma} - Turma Online 12 - Back-end | 2021 |  🚀
 
 Aluna:  Ana Cláudia Almeida de Souza
 
 Projeto Livre - Vida Equilibrada
 
 Introdução
-Esta aplicação é uma API com o intuito de ajudar as pessoas que possuem algum tipo de comorbidade( exemplo Diabetes mellitus Tipo 1) e precisa controlar a alimentação, assim como aqueles que desejam ter uma vida saudável. Será inserido o alimento, e quantas gramas de carboidratos eles possuem por quantidade.
+Esta aplicação é uma API com o intuito de ajudar as pessoas que possuem Diabetes mellitus Tipo 1 e se faz necesário o controle da alimentação, para controle e uso correto de insulina, assim como aqueles que desejam ter uma vida saudável. 
+O Alimento listado apresentará quantas gramas de carboídrato possuir por unidade.
 
 
 A API desenvolvida engloba todo o aprendizado durante o Bootcamp Reprograma - Turma Back-end.
@@ -18,7 +19,5 @@ A API desenvolvida engloba todo o aprendizado durante o Bootcamp Reprograma - Tu
 Agradecimentos
 
 
-O projeto desenvolvido é uma API com o intuito de auxiliar as pessoas que possuem Diabetes mellitus - Tipo 1, e precisa administrar a alimentação de forma regrada, controlando assim os niveis de açucar no sangue e a quantidade de insulina aplicada diariamente.
 
-
-
+Turma Online 12 - Back-end | 2021 |
