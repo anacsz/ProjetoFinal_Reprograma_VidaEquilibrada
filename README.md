@@ -31,18 +31,33 @@ Hoje diversos fatores contribuem para o surgimento da doença, como má alimenta
 
 <h4>Projeto</h4>
 
-<h6>Tecnologias</h6>
-Ferramenta = Descrição
-javascript	Linguagem de programação
-nodejs	Ambiente de execução do javascript
-express	Framework NodeJS
-dotenv	Dependência para proteger dados sensíveis do projeto
-mongoose	Dependência que interage com o MongoDB para a conexão da database, criação do model e das collections
-nodemon	Dependência que observa as atualizações realizadas nos documentos para rodar o servidor automaticamente
-npm ou yarn	Gerenciador de pacotes
-MongoDb	Banco de dado não relacional orietado a documentos
-MongoDb Compass ou Robo 3T	Interface gráfica para verificar se os dados foram persistidos
-Insomnia ou Postman	Interface gráfica para realizar os testes
+<h4>Tecnologias</h4>
+<table border="1">
+<tr>
+<td>Ferramenta</td> 
+<td>Descrição</td>
+</tr>
+<tr>
+        <td>JavaScript</td>
+        <td>Linguagem de Programação</td>
+</tr>
+<tr>
+        <td>NodeJS</td>
+        <td>Ambiente de execução do javascript</td>
+</tr>
+<tr>
+        <td>npm</td>
+        <td>Gerenciador de pacotes</td>
+</tr>
+<tr>
+        <td>Robo 3T</td>
+        <td>Software gratuito multiplataforma para gerenciamento de banco de dados MongoDB</td>
+</tr>
+<tr>
+        <td>Insomnia</td>
+        <td>Interface gráfica para realizar os testes</td>
+</tr>
+</table>
 
 
 
