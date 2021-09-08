@@ -1,0 +1,19 @@
+[
+
+   {
+     "alimento":"abacaxi",
+     "tipo":"fruta",
+     "carboidrato":7,
+     "quantidade":1,
+     "medida":"fatia"
+  },
+  {
+    "alimento":"alfajor",
+    "tipo":"doce",
+    "carboidrato":33,
+    "quantidade":1,
+    "medida":"unidade"
+ }
+   
+  
+]

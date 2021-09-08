@@ -16,6 +16,7 @@ app.use(express.json())
 
 
 app.use('/', index)
+
 app.use('/foods', foods)
 
 
