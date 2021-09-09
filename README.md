@@ -75,10 +75,10 @@ Para esse projeto seria apenas uma consulta simples sem a necessidade de realiza
    |    |- 📁 controllers<br>
    |         |- 📄 foodController.js<br>
    |
-   |    |- 📁 models
+   |    |- 📁 models<br>
    |         |- 📄 foodSchema.js<br>
    |
-   |    |- 📁 routes
+   |    |- 📁 routes<br>
    |         |- 📄 alimentoRoutes.js<br>
    |         |- 📄 index.js<br>
    |- 📄 .env<br>
@@ -90,7 +90,7 @@ Para esse projeto seria apenas uma consulta simples sem a necessidade de realiza
 
 <h4>3.Rotas</h4>
 
-table border="1">
+<table border="1">
 <tr>
 <td>Rota</td> 
 <td>Método</td>
@@ -147,3 +147,4 @@ table border="1">
 <li>Alimentos apresentados por icones grandes para que seja mais facil para quem não sabe ler ou tem baixa visão </li>
 <li>Fazer cadastro e criar um diario de alimentação a ser usado por Nutricionistas e Endocrinolistas para controle alimentar restrito.</li>
 </ul>
+
