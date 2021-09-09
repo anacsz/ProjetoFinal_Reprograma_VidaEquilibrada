@@ -25,13 +25,17 @@ Hoje diversos fatores contribuem para o surgimento da doença, como má alimenta
 <li>Vontade frequente para urinar;
 <li>Cansaço fácil;
 <li>Aumento da fome;
-</ul> <br><br></p>
+</ul> <br></p>
 
 ***Fonte: https://www.tuasaude.com/diabetes/ <br>
 
-<h4>Projeto</h4>
+<h4>Projeto</h4><br>
 
-<h4>Tecnologias</h4>
+O projeto desenvolvido tem como intuito auxiiar as pessoas que possuem Diabetes Mellitus - Tipo 1, e precisam realizar o controle da alimentação diariamente , administrando a quantidade dos niveis de açucar no sangue, consequentemente administrando um dose menor de insulina.
+Hoje as informações para algun ainda não ocorrem de forma clara, e muitas pessoas acreditam ainda que somente alimentos que contem açucar causa esse descontrole, porem todo alimento que possuir carboidrato assim que ingerido vira açucar no sangue.
+Para esse projeto seria apenas uma consulta simples sem a necessidade de realizar cadastro.
+
+<h4>1.Tecnologias</h4>
 <table border="1">
 <tr>
 <td>Ferramenta</td> 
@@ -59,8 +63,88 @@ Hoje diversos fatores contribuem para o surgimento da doença, como má alimenta
 </tr>
 </table>
 
+<h4>2.Arquitetura MVC</h4>
 
+ 📁 REPROGRAMA-VIDAEQUILIBRADA 
+   |
+   |-  📁 src
+   |    |
+   |    |- 📁 data
+   |         |- 📄 database.js
+   |
+   |    |- 📁 controllers
+   |         |- 📄 foodController.js
+   |
+   |    |- 📁 models
+   |         |- 📄 foodSchema.js
+   |
+   |    |- 📁 routes
+   |         |- 📄 alimentoRoutes.js
+   |         |- 📄 index.js
+   |- 📄 .env
+   |- 📄 .env.example
+   |- 📄 .gitignore
+   |- 📄 Procfile
+   |- 📄 package
+   |- 📄 server.js
 
+<h4>3.Rotas</h4>
 
+table border="1">
+<tr>
+<td>Rota</td> 
+<td>Método</td>
+<td>Função</td>
 
+</tr>
+<tr>
+        <td>'/ '</td>
+        <td>GET</td>
+        <td>Lista todo os alimentos</td>
+</tr>
+<tr>
+        <td>'/cadastrar'</td>
+        <td>POST</td>
+        <td>Cadastra novos alimentos</td>
+</tr>
+<tr>
+        <td>'/:id'</td>
+        <td>GET</td>
+        <td>Traz o alimento pelo ID</td>
+</tr>
+<tr>
+        <td>PATCH </td>
+        <td></td>
+</tr>
+<tr>
+        <td>DELETE/td>
+        <td></td>
+</tr>
+</table>
 
+<h4>4.Schemas</h4>
+
+ foodSchema = new mongoose.Schema({
+    _id: mongoose.Schema.Types.ObjectId,
+    alimento:{type: String, required: true,},
+    tipo:{type: String,required: true,},
+    carboidrato:{type: Number,required: true,},
+    quantidade:{type: Number,required: true,},
+    medida:{type: String,required: true}
+});
+
+<h4>5.Regras</h4>
+
+<ul>
+<li>Alimento deverá ser cadastrado apenas uma vez</li>
+<li>Não é necessário efetuar login para pesquisas </li>
+<li>Os alimentos podem ser consultados quantas vezes for necessário</li>
+</ul>
+
+<h4>6.Melhorias</h4>
+
+<ul>
+<li>Gerar relatórios gráficos para utilização em consutas médicas com os alimentos mais consumidos</li>
+<li>Alimentos apresentados por icones grandes para que seja mais facil para quem não sabe ler ou tem baixa visão </li>
+<li>Fazer cadastro e criar um diario de alimentação a ser usado por Nutricionistas e Endocrinolistas para controle alimentar restrito.</li>
+</ul>
