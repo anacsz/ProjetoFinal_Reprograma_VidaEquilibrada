@@ -65,28 +65,28 @@ Para esse projeto seria apenas uma consulta simples sem a necessidade de realiza
 
 <h4>2.Arquitetura MVC</h4>
 
- 📁 REPROGRAMA-VIDAEQUILIBRADA 
+ 📁 REPROGRAMA-VIDAEQUILIBRADA <br>
    |
-   |-  📁 src
+   |-  📁 src<br>
    |    |
-   |    |- 📁 data
-   |         |- 📄 database.js
+   |    |- 📁 data<br>
+   |         |- 📄 database.js<br>
    |
-   |    |- 📁 controllers
-   |         |- 📄 foodController.js
+   |    |- 📁 controllers<br>
+   |         |- 📄 foodController.js<br>
    |
    |    |- 📁 models
-   |         |- 📄 foodSchema.js
+   |         |- 📄 foodSchema.js<br>
    |
    |    |- 📁 routes
-   |         |- 📄 alimentoRoutes.js
-   |         |- 📄 index.js
-   |- 📄 .env
-   |- 📄 .env.example
-   |- 📄 .gitignore
-   |- 📄 Procfile
-   |- 📄 package
-   |- 📄 server.js
+   |         |- 📄 alimentoRoutes.js<br>
+   |         |- 📄 index.js<br>
+   |- 📄 .env<br>
+   |- 📄 .env.example<br>
+   |- 📄 .gitignore<br>
+   |- 📄 Procfile<br>
+   |- 📄 package<br>
+   |- 📄 server.js<br>
 
 <h4>3.Rotas</h4>
 
@@ -95,7 +95,6 @@ table border="1">
 <td>Rota</td> 
 <td>Método</td>
 <td>Função</td>
-
 </tr>
 <tr>
         <td>'/ '</td>
@@ -124,14 +123,14 @@ table border="1">
 
 <h4>4.Schemas</h4>
 
- foodSchema = new mongoose.Schema({
-    _id: mongoose.Schema.Types.ObjectId,
-    alimento:{type: String, required: true,},
-    tipo:{type: String,required: true,},
-    carboidrato:{type: Number,required: true,},
-    quantidade:{type: Number,required: true,},
-    medida:{type: String,required: true}
-});
+ foodSchema = new mongoose.Schema({<br>
+    _id: mongoose.Schema.Types.ObjectId,<br>
+    alimento:{type: String, required: true,},<br>
+    tipo:{type: String,required: true,},<br>
+    carboidrato:{type: Number,required: true,},<br>
+    quantidade:{type: Number,required: true,},<br>
+    medida:{type: String,required: true}<br>
+});<br>
 
 <h4>5.Regras</h4>
 
