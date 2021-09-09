@@ -25,7 +25,7 @@ Hoje diversos fatores contribuem para o surgimento da doença, como má alimenta
 <li>Vontade frequente para urinar;
 <li>Cansaço fácil;
 <li>Aumento da fome;
-</ul> <br></p>
+</ul></p>
 
 ***Fonte: https://www.tuasaude.com/diabetes/ <br>
 
@@ -148,3 +148,6 @@ Para esse projeto seria apenas uma consulta simples sem a necessidade de realiza
 <li>Fazer cadastro e criar um diario de alimentação a ser usado por Nutricionistas e Endocrinolistas para controle alimentar restrito.</li>
 </ul>
 
+<p  align = "center">
+<img src = "vidaequilibradaFinal.JPG" width="500">
+</p>
