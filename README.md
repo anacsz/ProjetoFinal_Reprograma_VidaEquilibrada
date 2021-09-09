@@ -3,7 +3,7 @@
 <h6>Aluna:  Ana Cláudia Almeida de Souza</h6>
 
 <p  align = "center">
-<img src = "vidaequilibrada.JPG" width="350">
+<img src = "imagens/vidaequilibrada.JPG" width="350">
 </p>
 
 
@@ -149,5 +149,5 @@ Para esse projeto seria apenas uma consulta simples sem a necessidade de realiza
 </ul>
 
 <p  align = "center">
-<img src = "vidaequilibradaFinal.JPG" width="500">
+<img src = "imagens/vidaequilibradaFinal.JPG" width="350">
 </p>
