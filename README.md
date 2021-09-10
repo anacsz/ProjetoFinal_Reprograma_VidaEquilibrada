@@ -113,11 +113,13 @@ Para esse projeto seria apenas uma consulta simples sem a necessidade de realiza
 </tr>
 <tr>
         <td>PATCH </td>
-        <td></td>
+        <td>/atualizar/:id</td>
+        <td>Atualiza/Altera os dados</td>
 </tr>
 <tr>
-        <td>DELETE/td>
-        <td></td>
+        <td>/remover/:id</td>
+        <td>DELETE</td>
+        <td>deleta o Alimento via ID</td>
 </tr>
 </table>
 
