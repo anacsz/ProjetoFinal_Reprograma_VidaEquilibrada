@@ -37,11 +37,56 @@ const getById = async (req, res) => {
   }
 }
 
+const updateFood = async (req, res) => {
+  try {
+      const food = await foodSchema.findById(req.params.id)
+      if(filme == null) {
+          return res.status(404).json({message: 'Alimento nao encontrado'})
+      }
+      
+      if (req.body.alimento != null) {
+          food.alimento = req.body.alimento
+      }
+      if (req.body.tipo != null) {
+          food.tipo = req.body.tipo
+      }
+      if (req.body.carboidrato != null) {
+          food.carboidrato = req.body.carboidrato
+      }
+      if (req.body.quantidade != null) {
+          food.quantidade = req.body.quantidade
+      }
+      if (req.body.medida != null) {
+        food.medida = req.body.medida
+    }
+      
+      const foodAtualizado = await food.save()
+      res.json(foodAtualizado)
+
+  } catch (error) {
+      res.status(500).json({ message: error.message })
+  }
+}
+
+const deleteFood = async(req, res) => {
+  try{
+    const food = await foodSchema.findById(req.params.id)
+    if(food == null){
+      return res.status(404).json({message: 'Alimnento não encontrado'})
+    }
+    await food.remove()
+    res.json({message: 'Allimento deletado com sucesso'})
+  } catch(error){
+    res.status(500).json({message: 'error.message'})
+  }
+}
 
 
 
 module.exports = {
   getAll,
   create,
-  getById
+  getById,
+  updateFood,
+  deleteFood
 }

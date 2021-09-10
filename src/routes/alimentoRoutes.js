@@ -10,5 +10,8 @@ router.get("/:id", controller.getById )
 
 router.post("/cadastrar", controller.create)
 
+router.patch("/atualizar/:id", controller.updateFood)
+
+router.delete("/remover", controller.deleteFood)
 
 module.exports = router
