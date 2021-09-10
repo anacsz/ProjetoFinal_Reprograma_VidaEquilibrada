@@ -17,6 +17,9 @@ const create =  async (req,res) => {
 
   })
   try { 
+    if(food.alimento === food.alimento){
+      return res.status(404).json({message:'Alimento já cadastrado'})
+    }
       const newFood = await food.save()
       res.status(201).json(newFood)
   } catch (error) {
