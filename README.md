@@ -112,8 +112,8 @@ Para esse projeto seria apenas uma consulta simples sem a necessidade de realiza
         <td>Traz o alimento pelo ID</td>
 </tr>
 <tr>
-        <td>PATCH </td>
         <td>/atualizar/:id</td>
+        <td>PATCH</td>
         <td>Atualiza/Altera os dados</td>
 </tr>
 <tr>
