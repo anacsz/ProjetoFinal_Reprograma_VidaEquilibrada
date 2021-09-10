@@ -40,7 +40,7 @@ const getById = async (req, res) => {
 const updateFood = async (req, res) => {
   try {
       const food = await foodSchema.findById(req.params.id)
-      if(filme == null) {
+      if(food == null) {
           return res.status(404).json({message: 'Alimento nao encontrado'})
       }
       
