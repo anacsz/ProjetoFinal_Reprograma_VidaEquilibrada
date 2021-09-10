@@ -16,15 +16,17 @@ const create =  async (req,res) => {
       medida: req.body.medida,
 
   })
-  try { 
-    if(food.alimento === food.alimento){
-      return res.status(404).json({message:'Alimento já cadastrado'})
-    }
+  const foodExistente = await foodSchema.findOne({alimento: req.body.alimento})
+    if (foodExistente) {
+      return res.status(409).json({error: 'Alimento ja cadastrado.'})
+    }else{
+    try {
       const newFood = await food.save()
       res.status(201).json(newFood)
-  } catch (error) {
-      res.status(400).json({ message: error.message })
-  }
+    } catch (err) {
+      res.status(400).json({ message: err.message})
+    }
+}
 }
 
 const getById = async (req, res) => {
