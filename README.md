@@ -102,14 +102,14 @@ Para esse projeto seria apenas uma consulta simples sem a necessidade de realiza
         <td>Lista todo os alimentos</td>
 </tr>
 <tr>
-        <td>'/cadastrar'</td>
-        <td>POST</td>
-        <td>Cadastra novos alimentos</td>
-</tr>
-<tr>
         <td>'/:id'</td>
         <td>GET</td>
         <td>Traz o alimento pelo ID</td>
+</tr>
+<tr>
+        <td>'/cadastrar'</td>
+        <td>POST</td>
+        <td>Cadastra novos alimentos</td>
 </tr>
 <tr>
         <td>/atualizar/:id</td>
