@@ -68,14 +68,14 @@ const updateFood = async (req, res) => {
   }
 }
 
-const deleteFood = async(req, res) => {
+const deleteFood = async (req, res) => {
   try{
     const food = await foodSchema.findById(req.params.id)
     if(food == null){
-      return res.status(404).json({message: 'Alimnento não encontrado'})
+      return res.status(404).json({message: 'Alimento não encontrado'})
     }
     await food.remove()
-    res.json({message: 'Allimento deletado com sucesso'})
+    res.json({message: 'Alimento deletado com sucesso'})
   } catch(error){
     res.status(500).json({message: 'error.message'})
   }

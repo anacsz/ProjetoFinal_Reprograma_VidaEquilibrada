@@ -12,6 +12,6 @@ router.post("/cadastrar", controller.create)
 
 router.patch("/atualizar/:id", controller.updateFood)
 
-router.delete("/remover", controller.deleteFood)
+router.delete("/remover/:id", controller.deleteFood)
 
 module.exports = router
