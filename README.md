@@ -151,5 +151,8 @@ Para esse projeto seria apenas uma consulta simples sem a necessidade de realiza
 </ul>
 
 <p  align = "center">
-<img src = "imagens/vidaequilibradaFinal.JPG" width="350">
+<img src = "imagens/vidaequilibradaFinal.JPG" width="450">
 </p>
+
+
+<h4 align = "center">Faça o teu melhor, na condição que você tem, enquanto você não tem condições melhores, para fazer melhor ainda!. “Mario Sergio Cortella”</h4>
